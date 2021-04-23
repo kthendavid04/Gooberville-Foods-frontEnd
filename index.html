@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- added link to css maerialize and link to css stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- ADDED GOOGLE ICONS STYLESHEET -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Charmonman&family=Handlee&family=Homemade+Apple&family=Meddon&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Gooberville Foods</title>
+  </head>
+
+  <body>
+    <!-- Navigation bar for full screen -->
+    <div class="containter">
+      <nav class="nav-wrapper grey darken-1 ">
+            <a href="#" class="brand-logo">Gooberville FOODS</a>
+            <a href="#" class="sidenav-trigger" data-target="mobile-links">
+                <i class="material-icons">flatware</i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="./savedrecipes.html">Saved Recipes</a></li>
+            </ul>
+  
+    <!-- Navigation bar for mobile devices -->
+      <ul class="sidenav" id="mobile-links">
+        <li><a href="./savedrecipes.html">Saved Recipes</a></li>
+      </ul>
+      </nav>
+    </div>
+<!-- Greeting Containter -->
+
+    <br>
+    <div class="container">
+      <header class="center-align" > 
+        <h1 class="time-of-day" ></h1> 
+      </header> 
+      <br>
+      <div class="container"class="center">
+        <h4>Search for recipes to make your favorite dish, and save your favorite recipes for later!</h4>
+    </div>
+    <br>
+    <div class="container">
+        <div class="search">
+            <input type="text" id="input-text"class="search-bar " data-length="10" placeholder="Dishes">
+            <a href = "#" class="btn-floating grey darken-1" id="btn-submit">
+                <i class="material-icons">flatware</i></a>
+            <div id="div-data"></div>
+        </div>
+    </div>
+
+
+      
+      <div>
+      </div>
+      <div id="food-search" class="hide row">
+        <div id="spoonacular" class="col l6 m12 left">
+          <h1>Spoonacular</h1>
+          <ul id="spoon-results" class="local-coll collection">
+          </ul>
+        </div>
+        <div id="edamam" class="col l6 m12 right">
+          <h1>Edamam</h1>
+          <ul id="edam-results" class="local-coll collection">
+          </ul>
+        </div>
+      </div>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="./assets/js/script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="./assets/js/script.js"></script>
+  <!-- JQuery script for the mobile side navigation bar -->
+  <script>
+      $(document).ready(function(){
+          $('.sidenav').sidenav();
+      })
+  </script>
+
+</html>
