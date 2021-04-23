@@ -4,8 +4,8 @@ A website where you can look up recipes from different databases, and save the r
 
 Technologies used: HTML, CSS, Materialize, Javascript, Jquery, Spoonacular API, Edamam API<br>
 
-Link to Github repository files: https://github.com/the64man1/Gooberville-Foods/<br>
-Link to Github pages website: https://the64man1.github.io/Gooberville-Foods/<br>
+Link to Github Projectrepository files: https://github.com/the64man1/Gooberville-Foods/<br>
+Link to Github pages website: https://kthendavid04.github.io/Gooberville-Foods-frontEnd/index.html<br>
 
 Main page:<br>
 <img src="assets/images/Home Page Screen Shot.png" alt= "Saved Recipe Picture"><br>
